@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "egg": "^2.5.0",
+    "egg-view-nunjucks": "^2.1.6"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.3.7"
+  },
+  "name": "baidu-ocpc",
+  "version": "1.0.1",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  }
+}
