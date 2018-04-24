@@ -160,6 +160,7 @@
       "egg-bin": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js"
     },
     "name": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",
+    "version": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",
     "scripts": {
       "dev": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",
       "test": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",

@@ -104,7 +104,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/haowang/playground/localdev/egg-example/logs/egg-example/egg-schedule.log"
+        "file": "/Users/haowang/playground/localdev/egg-example/logs/baidu-ocpc/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -141,7 +141,7 @@
       "cache": false
     },
     "env": "local",
-    "name": "egg-example",
+    "name": "baidu-ocpc",
     "keys": "<String len: 5>",
     "proxy": false,
     "protocolHeaders": "x-forwarded-proto",
@@ -155,7 +155,8 @@
       "devDependencies": {
         "egg-bin": "^4.3.7"
       },
-      "name": "egg-example",
+      "name": "baidu-ocpc",
+      "version": "1.0.1",
       "scripts": {
         "dev": "egg-bin dev",
         "test": "egg-bin test",
@@ -194,7 +195,7 @@
       }
     },
     "logger": {
-      "dir": "/Users/haowang/playground/localdev/egg-example/logs/egg-example",
+      "dir": "/Users/haowang/playground/localdev/egg-example/logs/baidu-ocpc",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -202,7 +203,7 @@
       "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
-      "appLogName": "egg-example-web.log",
+      "appLogName": "baidu-ocpc-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",

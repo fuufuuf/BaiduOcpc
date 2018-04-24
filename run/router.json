@@ -19,8 +19,21 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/ocpc",
-    "regexp": "/^\\/ocpc(?:\\/(?=$))?$/",
+    "path": "/ocpc/click",
+    "regexp": "/^\\/ocpc\\/click(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/ocpc/result",
+    "regexp": "/^\\/ocpc\\/result(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
