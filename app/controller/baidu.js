@@ -1,5 +1,5 @@
 const Controller = require('egg').Controller;
-const crypto = require('Crypto');
+const crypto = require('crypto');
 class BaiduController extends Controller {
   async ocpc() {
     const ctx = this.ctx; 
