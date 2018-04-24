@@ -11,6 +11,7 @@
   "scripts": {
     "dev": "egg-bin dev",
     "test": "egg-bin test",
-    "cov": "egg-bin cov"
+    "cov": "egg-bin cov",
+    "debug": "egg-bin debug"
   }
 }

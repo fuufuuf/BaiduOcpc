@@ -164,7 +164,8 @@
     "scripts": {
       "dev": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",
       "test": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",
-      "cov": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js"
+      "cov": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",
+      "debug": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js"
     }
   },
   "baseDir": "/Users/haowang/playground/localdev/egg-example/node_modules/_egg@2.5.0@egg/config/config.default.js",

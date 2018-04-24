@@ -192,7 +192,8 @@
       "scripts": {
         "dev": "egg-bin dev",
         "test": "egg-bin test",
-        "cov": "egg-bin cov"
+        "cov": "egg-bin cov",
+        "debug": "egg-bin debug"
       }
     },
     "baseDir": "/Users/haowang/playground/localdev/egg-example",
