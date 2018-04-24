@@ -8,10 +8,10 @@ class BaiduController extends Controller {
     callback_url = callback_url.replace('{{ATYPE}}', 'activate').replace('{{AVALUE}}', 0);
     const akey = 'MjU0Nzk0NzI=';
     callback_url += akey;
-    const sign = crypto.createHash('md5').update(callback_url);
+    const sign = crypto.createHash('md5').update(callback_url).digest('hex');
     callback_url += '&'+sign;
     console.log(callback_url);
-    const ret = ctx.app.curl(callback_url);
+    const ret = await ctx.app.curl(callback_url);
     console.log(ret);
     ctx.status = 200;
 
