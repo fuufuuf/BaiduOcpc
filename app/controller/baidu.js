@@ -3,7 +3,7 @@ const crypto = require('crypto');
 class BaiduController extends Controller {
   async ocpc() {
     const ctx = this.ctx; 
-    console.log(ctx.path);
+    console.log(ctx.href);
     let callback_url = ctx.query.callback_url;
     callback_url = callback_url.replace('{{ATYPE}}', 'activate').replace('{{AVALUE}}', 0);
     const akey = 'MjU0Nzk0NzI=';
