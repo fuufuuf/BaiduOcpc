@@ -11,8 +11,8 @@ class BaiduController extends Controller {
     const sign = crypto.createHash('md5').update(callback_url).digest('hex');
     callback_url += '&'+sign;
     console.log(callback_url);
-    const ret = await ctx.app.curl(callback_url);
-    console.log(ret);
+    // const ret = await ctx.app.curl(callback_url);
+    // console.log(ret);
     ctx.status = 200;
 
   }
